@@ -20,7 +20,26 @@
 				Your browser does not support the video tag.
 			</video>
 		</section>
-		<button id="download-jogo">Download do Jogo</button>
+		<a href="#" onclick="downloadGame()">Download Game</a>
+
+		<script>
+  			function downloadGame()
+			{
+    			function downloadGame()
+				{
+  					const url = 'C:/Users/simao/Documents/GitHub/DJ-Projeto/DJ-Projeto-Final-V2/DJ-Projeto-Final-V2'; // Replace with your file URL
+  					fetch(url)
+    				.then(response => response.blob())
+    				.then(blob =>
+					{
+      					const a = document.createElement('a');
+      					a.href = URL.createObjectURL(blob);
+      					a.download = 'game.zip';
+      					a.click();
+    				});
+				}
+  			}
+		</script>
 	</main>
 	<footer>
         <div style="float: left;">
