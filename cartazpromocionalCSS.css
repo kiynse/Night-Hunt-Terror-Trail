@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('teste4-100.jpg'); /* adicione a imagem aqui */
+    background-size: cover; /* ajuste o tamanho da imagem para cobrir a página */
+    background-position: center; /* ajuste a posição da imagem para o centro da página */
+  }
+
+header {
+	background-color: #000001;
+	padding: 20px;
+	text-align: center;
+}
+
+#titulo-jogo {
+    font-size: 43px;
+    margin: 0;
+    font-family: 'Justice Fest', Arial, sans-serif; /* add the custom font */
+    padding-right: 650px;
+    color: #ffffff;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+    color: #f0f0f0;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#descricao-jogo {
+	width: 50%;
+	margin-right: 30px;
+    font-size: 20pt;
+}
+
+#video-jogo {
+	width: 50%;
+}
+
+button#download-jogo {
+	background-color: #4CAF50;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+button#download-jogo:hover {
+	background-color: #3e8e41;
+}
+
+footer {
+	background-color: #000000;
+    color:#f0f0f0;
+	padding: 10px;
+    margin-top: 200px;
+	text-align: center;
+}
+
+#creditos span {
+	margin: 0 10px;
+}
+@font-face {
+    font-family: 'Justice Fest';
+    src: url('fonts/justice-fest.ttf'); /* or .woff, depending on the file format */
+  }
